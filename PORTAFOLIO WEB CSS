@@ -1,0 +1,398 @@
+html {
+margin:0px;
+width:100%;
+height:100%;
+}
+
+body {
+margin:0px;
+width:100%;
+height:100%;
+font-family:"Quando", serif;
+font-family: "Julius Sans One", sans-serif;
+color:white;
+background-color:rgba(23,57,57,0.85);
+border-style:none;
+border-left:none;
+}
+
+header {
+height:auto;
+width:100%;
+float:top;
+margin:0px;
+border-bottom:groove white 1px;
+border-left:none;
+background:rgba(23,57,57,0.85);
+position:fixed;
+padding: 0% 0% 2% 0%;
+font:Julius Sans One;
+z-index:1000;
+}
+
+#firma {
+float:left;
+height:auto;
+width:15%;
+margin-left:3%;
+margin-right:0%;
+margin-top:1%;
+margin-bottom:1%;
+clear:none;
+position:fixed;
+opacity:1;
+}
+
+nav ul {
+list-style-type:none;
+width:85%;
+text-align:right;
+margin-top:3.75%;
+float:top;
+clear:none;
+position:absolute;
+}
+
+nav ul li {
+display:inline-block;
+}
+
+a {
+text-decoration:none;
+color:white;
+font-size:20px;
+}
+
+a:hover {
+color:rgba(119,174,53);
+}
+
+#inicio {
+margin-right:0%;
+margin-left:5%;
+padding-right:0%;
+border-left: groove white 1px;
+padding-left:5%;
+}
+
+#portafolio {
+margin-right:0%;
+margin-left:5%;
+border-right:groove white 1px;
+border-left:groove white 1px;
+padding-right:5%;
+padding-left:5%;
+}
+
+#info {
+margin-right:0%;
+margin-left:5%;
+border-right:groove white 1px;
+padding-right:5%;
+}
+
+#idioma {
+width:4%;
+margin-left:0%;
+margin-right:3%;
+margin-top:1.75%;
+height:4%;
+float:right;
+clear:none;
+box-sizing:border-box;
+position:relative;
+font-family: Quando;
+opacity:.85;
+}
+
+#espanol {
+float:top;
+margin-right:60%;
+margin-top:0%;
+}
+
+#ingles {
+float:bottom;
+margin-top:0%;
+margin-right:0%;
+}
+
+
+#portada {
+float:top;
+width:100%;
+height:auto;
+}
+
+#mapa {
+width:100%;
+border-bottom: groove white 1px;
+}
+
+#listaportafolio {
+	margin-top: 15%;
+	margin-bottom: 0%;
+	box-sizing: border-box;
+}
+#titulo {
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 400%;
+	font-color:rgba(119,174,53);
+	margin-bottom:1%;
+	margin-top:5%;
+	font:Julius Sans One;
+}
+
+#intro {
+	box-sizing: border-box;
+	text-align:center;
+	font-size:150%;
+	margin-bottom: 5%;
+	margin-top:1%;
+	margin-right:25%;
+	margin-left: 25%; 
+	font-family: Quando;
+}
+
+.fila {
+	width:100%;
+	height:auto;
+	margin-top:5%
+	margin-right:auto;
+	margin-left: auto;
+	padding-left:6%;
+	border-style: none;
+	box-sizing: border-box;
+}
+
+.port {
+	width:20%;
+	height:auto;	
+	margin-right:5%;
+	margin-left:5%;
+	padding:0px;
+	box-sizing:border-box;
+	border-style: none;
+	display:inline-block;
+}
+
+.circle {
+	width:100%
+	height:auto;
+	border-radius: 50%;
+	width:100%;
+	transition: all .5s ease-in-out, opacity .3s ease-in-out;
+	opacity:.5;
+}
+
+.circle:hover{
+	border-radius:20%;
+	cursor:pointer;
+	opacity:1;
+}
+
+#por1 {
+	width:100%;
+	height: auto;
+	box-sizing:border-box;
+}
+
+#por2 {
+	width:100%;
+	box-sizing:border-box;
+}
+
+#por3 {
+	width:100%;
+	box-sizing:border-box;
+}
+
+.cap1 {
+height:30%;
+font-size:25px;
+width:auto;
+color:white;
+text-align: center;
+margin-top: 5%;
+font:Julius Sans One; 
+}
+
+.cap2 {
+	font-family:Quando;
+	height:7%;
+	width:auto;
+	color:rgba(119,174,53);
+	text-align: center;
+	margin-top:1%;
+	margin-bottom: 20%;
+	font-size:15px;
+}
+
+#acerca {
+	width:100%;
+	height:auto;
+	margin-top:10%;
+	margin-right:auto;
+	margin-left: auto;
+	border-style: none;
+	box-sizing: border-box;
+	position:relative;
+	border-top: groove white 1px;
+}
+
+#tituloabout {
+	width:100%;
+	height:auto;
+	box-sizing: border-box;
+	margin-top:0%;
+	position: relative;
+}
+
+#about {
+	font-family: Julius Sans One;
+	font-size: 150%;
+	color:white;
+	text-align: center;
+	box-sizing: border-box;
+	margin-bottom: 1%;
+	margin-top: 5%;
+	position:relative;
+}
+
+#nombre {
+	font-family: Julius Sans One;
+	font-size: 400%;
+	color:rgba(119,174,53);
+	text-align: center;
+	box-sizing: border-box;
+	margin-bottom: 1%;
+	margin-top:1%;
+}
+
+#cita {
+	font-family: Quando;
+	font-size: 100%;
+	color:white;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#descripcion {
+	position:relative;
+	box-sizing: border-box;
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-top:2%;
+	margin-bottom: 3%
+	width:100%;
+}
+
+#profesional {
+	position:relative;
+	box-sizing: border-box;
+	width:35%;
+	display: inline-block;
+	margin-right: 2%;
+}
+
+.sub {
+	color:rgba(119,174,53);
+	font-family: Quando;
+	font-size: 150%;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+.texto1 {
+	color:white;
+	font-family: Quando;
+	font-size: 100%;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+#foto {
+	position: relative;
+	box-sizing: border-box;
+	width:25%;
+	height:auto;
+	display: inline-block;
+}
+
+#inaia {
+	box-sizing: border-box;
+	width:100%;
+	height:auto;
+	transition: .3s ease-in-out;
+}
+
+#inaia:hover {
+	content: url(Imagenes/Info/inaiagif.gif);
+	content-size: 0% 100%;
+}
+
+#personal {
+	position:relative;
+	box-sizing: border-box;
+	width:35%;
+	display: inline-block;
+	margin-left: 2%;
+}
+
+.sub2 {
+	color:rgba(119,174,53);
+	font-family: Quando;
+	font-size: 150%;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+.texto2 {
+	color:white;
+	font-family: Quando;
+	font-size: 100%;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+footer {
+width:100%;
+position:relative;
+box-sizing: border-box;
+border-top: groove white 1px;
+margin-top: 3%;
+margin-bottom: 0%;
+padding-bottom: 2%;
+background-color:rgba(119,174,53,.50);
+}
+
+#george {
+text-align: center;
+color:rgba(23,57,57);
+font-size: 200%;
+margin-bottom: 1%;
+margin-top: 2%;
+font-family: Julius Sans One;
+margin-right: 15%;
+margin-left: 15%
+}
+
+#shaw {
+text-align: right;
+color:white;
+font-size: 100%;
+margin-bottom: 0%;
+font-family: Quando;
+margin-right: 20%;
+}
+
+#linksection1 {
+	position:relative;
+	margin-top:-10%;
+}
+
+#linksection2 {
+	position:relative;
+	margin-top:-10%;
+}
