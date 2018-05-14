@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>Portafolio - Inaia Oliver</title>
+	<link rel="stylesheet" type="text/css" href="Portafolio.css" media="screen">
+	<link rel="shortcut icon" href="icon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Quando" rel="stylesheet">
+</head>
+
+<body>
+	
+	<header>
+		<div id="header">
+
+		<a href="#portada"><img id="firma" src="Imagenes/Portada/firmaconfondo.png" alt="Inaia Oliver Quevedo">
+		</a>
+
+		<div id="menu">
+			<nav>
+				<ul>
+					<li id="inicio"><a href="#portada" class="hover">INICIO</a></li>
+					<li id="portafolio"><a href="#linksection1" class="hover">PORTAFOLIO</a></li>
+					<li id="info"><a href="#linksection2" class="hover">SOBRE MÍ</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div id="idioma">
+			<p id="espanol"><a href="inicio.html" class="active">es</a></p>
+			<p id="ingles"><a href="home.html" class="hover">en</a><p>
+		</div>
+		</div>
+	</div>
+
+	</header>
+
+	<div id="portada" name="portada">
+		<img id="mapa" src="Imagenes/Portada/portada.gif"
+	</div>
+
+	<div id="linksection1"></div>
+		
+	<div id="listaportafolio" name="listaportafolio">
+
+		<div class="titulo">
+			<p id="titulo">PORTAFOLIO</p>
+			<p id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue quam, blandit sed erat id, tristique dignissim sem.</p>
+		</div> 
+
+		<div class="fila">
+			<div class="port">
+				<div class="portcontainer">
+    <a href="Portafolio/CELANOVA/Celanova.html"><img class="circle" id="por1" src="Imagenes/Lista Portafolio/TNcelanova.png"></a>
+				</div>
+				<figcaption class="cap1">CELANOVA</figcaption>
+				<figcaption class="cap2">Logo │ Slogan │ Mapa turístico</figcaption>
+			</div>
+			<div class="port">
+				<a href="Portafolio/SKIPIT/Skipit.html"><img class="circle" id="por2" src="Imagenes/Lista Portafolio/TNskipit.png"></a>
+				<figcaption class="cap1">SKIP IT</figcaption>
+				<figcaption class="cap2">Propuestas de logo</figcaption>
+			</div>
+			<div class="port">
+				<a href="Portafolio/MARCAIOQ/MarcaIOQ.html"><img class="circle" id="por1" src="Imagenes/Lista Portafolio/TNmarcaioq.png"></a>
+				<figcaption class="cap1">MARCA IOQ</figcaption>
+				<figcaption class="cap2">Identidad Corporativa │ Diseño Web</figcaption>
+			</div>
+		</div>
+
+		<div class="fila">
+			<div class="port">
+				<a href="Portafolio/EQUUS/Equus.html"><img class="circle" id="por2" src="Imagenes/Lista Portafolio/TNequus.png"></a>
+				<figcaption class="cap1">EQUUS PIBES</figcaption>
+				<figcaption class="cap2">Logo │ Diseño de producto</figcaption>
+			</div>
+			<div class="port">
+				
+				<a href="#"><img class="circle" id="por3" src="Imagenes/Lista Portafolio/por3.png"></a>
+				<figcaption class="cap1">IMAGE 3</figcaption>
+				<figcaption class="cap2">Drago dormiens nunquam titillandus</figcaption>
+			</div>
+			<div class="port">
+				<a href="Portafolio/ORCHIDEE/Orchidee.html"><img class="circle" id="por3" src="Imagenes/Lista Portafolio/TNorchidee.png"></a>
+				<figcaption class="cap1">ORCHIDÉE</figcaption>
+				<figcaption class="cap2">Logo │ Diseño de producto</figcaption>
+			</div>
+		</div>
+
+		<div class="fila">
+			<div class="port">
+				<a href="#"><img class="circle" id="por1" src="Imagenes/Lista Portafolio/por1.png"></a>
+				<figcaption class="cap1">IMAGE 1</figcaption>
+				<figcaption class="cap2">Drago dormiens nunquam titillandus</figcaption>
+			</div>
+			<div class="port">
+				<a href="#"><img class="circle" id="por2" src="Imagenes/Lista Portafolio/por2.png"></a>
+				<figcaption class="cap1">IMAGE 2</figcaption>
+				<figcaption class="cap2">Drago dormiens nunquam titillandus</figcaption>
+			</div>
+			<div class="port">
+				<a href="#"><img class="circle" id="por3" src="Imagenes/Lista Portafolio/TNdoodle.png"></a>
+				<figcaption class="cap1">DOODLES</figcaption>
+				<figcaption class="cap2">Bocetos digitales</figcaption>
+			</div>
+		</div>
+	</div>
+
+	<div id="linksection2"></div>
+
+<div id="acerca" name="acerca">
+	<div id="tituloabout">
+	<p id="about">SOBRE MÍ</p>
+	<p id="nombre">Inaia Oliver Quevedo</p>
+	<p id="cita"><i>Draco dormiens nunquam titillandus</i></p>
+	</div>
+	
+	<div id="descripcion">
+		<div id="profesional">
+			<p class="sub">Mi vida profesional</p>
+			<p class="texto1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue quam, blandit sed erat id, tristique dignissim sem.</p>
+		</div>
+
+		<div id="foto"><img id="inaia" src="Imagenes/Info/inaia.png"></div>
+
+		<div id="personal">
+			<p class="sub2">Mi vida personal</p>
+			<p class="texto2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue quam, blandit sed erat id, tristique dignissim sem.</p>
+		</div>
+	</div>
+</div>
+
+<footer>
+<p id="george"><i>"Ves cosas y dices, ¿por qué? Pero yo sueño con cosas que nunca fueron y me digo, ¿por qué no?"</i></p>
+<p id="shaw"><b>- George Bernard Shaw</b></p>
+</footer>
+
+</body>
+
+</html>
